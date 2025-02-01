@@ -1,0 +1,42 @@
+
+/* start */
+.common_header_h3{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .frequently_container{
+    padding: 10px 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(214, 210, 210)
+  }
+  .frequently_card_grid{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 15px;
+
+   
+  }
+  .frequently_card{
+    padding: 14px;
+    border: 1px solid purple;
+    border-radius: 8px;
+  }
+  .frequently_card_header{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 8px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+  .frequently_card_description{
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: gray;
+    margin-top:0;
+  }
+  .frequently_card_link{
+    color: purple;
+    font-size: 16px;
+  }
