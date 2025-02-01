@@ -1,6 +1,7 @@
 import React from 'react';
 import FrequentlyCard from '../../UI/FrequentlyCard/FrequentlyCard';
 import './rightPanel.css';
+import OrderDetailsCard from '../../UI/OrderDetailsCard/OrderDetailsCard';
 
 const RightPanel = () => {
   return (
@@ -23,6 +24,7 @@ const RightPanel = () => {
           </div>
         </div>
       </div>
+      <OrderDetailsCard/>
     </div>
   )
 }
