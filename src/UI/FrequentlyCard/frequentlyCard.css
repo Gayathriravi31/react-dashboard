@@ -1,15 +1,11 @@
 
 /* start */
-.common_header_h3{
-    font-size: 15px;
-    font-weight: 500;
-  }
   .frequently_container{
     padding: 10px 20px;
     background-color: white;
-    margin-top: 20px;
     border-radius: 8px;
-    border: 1px solid rgb(214, 210, 210)
+    border: 1px solid var(--primary-border);
+    margin-bottom: 20px;
   }
   .frequently_card_grid{
    display: grid;
@@ -38,5 +34,24 @@
   }
   .frequently_card_link{
     color: purple;
-    font-size: 16px;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 3px;
+    border-bottom: 1px solid purple;
+    font-weight: 500;
+  }
+  .frequently_card_link span:nth-child(2){
+    position: relative;
+    right: 0;
+    transition: all linear 0.2s;
+  }
+  .frequently_card_link:hover span:nth-child(2){
+  right: -10px;
+  }
+
+  @media screen and (max-width:991px) {
+    .frequently_card_grid {
+      grid-template-columns: 100%;
+  }
   }

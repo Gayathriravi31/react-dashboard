@@ -1,9 +1,9 @@
 :root{
-  --primary-bg-color:#5b2c6f ;
-  --primary-foreground-color:#000000 ;
-  --primary-border:#282c34;
-
-  --secondary-bg-color:#d2b4de ;
+  --primary-bg:#5b2c6f;
+  --primary-foreground:#000000 ;
+  --primary-border:#d6d2d2;
+  --secondary-bg:#d2b4de;
+  --body-bg:#f8f8ff;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--body-bg);
 }
 
 code {
@@ -26,5 +27,13 @@ code {
   grid-template-columns: 320px 1fr;
   gap: 18px;
   padding: 10px;
-  background-color:ghostwhite;
+}
+.common_header_h3{
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width:767px) {
+  .dashboard_grid{
+    grid-template-columns: 100%;
+  }
 }

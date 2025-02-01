@@ -9,7 +9,6 @@ function App() {
           {/* left side */}
         </div>
         <RightPanel/>
-       
       </div>
     </>
   );
