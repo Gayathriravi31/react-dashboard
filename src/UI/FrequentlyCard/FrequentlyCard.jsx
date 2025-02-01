@@ -4,7 +4,7 @@ import './frequentlyCard.css';
 const FrequentlyCard = () => {
   return (
     <div className='frequently_container'>
-        <h3 className='common_header_h3'>Frequently Used</h3>
+        <h3 className='common_header_h3 mb-15'>Frequently Used</h3>
         <div className='frequently_card_grid'>
           {
             [1, 2, 3].map((data) => {

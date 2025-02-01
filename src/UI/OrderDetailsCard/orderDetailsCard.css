@@ -5,3 +5,40 @@
     border: 1px solid var(--primary-border);
     margin-bottom: 20px;
   }
+  .order_details_card_link{
+    color: purple;
+    font-size: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid purple;
+    font-weight: 500;
+  }
+  .order_details_card_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .order_details_card_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+  }
+  .order_details_card{
+    background: var(--secondary-bg);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .order_details_header{
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  .total_text{
+    color: gray;
+    margin-top: 0;
+margin-bottom: 6px;
+  }
+  .icon_flex{
+    font-size: 12px;
+    color: gray;
+  }

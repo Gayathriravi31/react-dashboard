@@ -1,7 +1,8 @@
 import React from 'react';
 import FrequentlyCard from '../../UI/FrequentlyCard/FrequentlyCard';
-import './rightPanel.css';
 import OrderDetailsCard from '../../UI/OrderDetailsCard/OrderDetailsCard';
+import './rightPanel.css';
+
 
 const RightPanel = () => {
   return (

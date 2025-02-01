@@ -54,4 +54,13 @@
     .frequently_card_grid {
       grid-template-columns: 100%;
   }
+  .frequently_card_header{
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .frequently_card_description{
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
   }
