@@ -42,3 +42,13 @@ margin-bottom: 6px;
     font-size: 12px;
     color: gray;
   }
+  @media screen and (max-width:1199px) {
+    .order_details_card_grid{
+        grid-template-columns: repeat(2,1fr);
+      }
+  }
+  @media screen and (max-width:475px) {
+    .order_details_card_grid{
+        grid-template-columns: 100%;
+      }
+  }
