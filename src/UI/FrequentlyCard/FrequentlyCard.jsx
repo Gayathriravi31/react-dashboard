@@ -3,7 +3,7 @@ import './frequentlyCard.css';
 
 const FrequentlyCard = () => {
   return (
-    <div className='frequently_container'>
+    <div className='frequently_container common_shadow'>
         <h3 className='common_header_h3 mb-15'>Frequently Used</h3>
         <div className='frequently_card_grid'>
           {

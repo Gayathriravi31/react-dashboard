@@ -4,6 +4,7 @@
   --primary-border:#d6d2d2;
   --secondary-bg:#eae2ed;
   --body-bg:#f8f8ff;
+  --link--foreground:var(--primary-bg);
 }
 
 body {
@@ -35,6 +36,9 @@ code {
 }
 .mb-15{
   margin-bottom: 15px;
+}
+.common_shadow{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 @media screen and (max-width:767px) {
   .dashboard_grid{

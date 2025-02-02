@@ -1,7 +1,10 @@
 import React from 'react';
 import FrequentlyCard from '../../UI/FrequentlyCard/FrequentlyCard';
 import OrderDetailsCard from '../../UI/OrderDetailsCard/OrderDetailsCard';
+import calendarIcon from '../../Assets/calendar.png';
 import './rightPanel.css';
+import CountDataCard from '../../UI/CountDataCard/CountCard';
+
 
 
 const RightPanel = () => {
@@ -9,23 +12,28 @@ const RightPanel = () => {
     <div>
       <FrequentlyCard />
       <div className='filter_flex'>
-        <select className='common_select'>
-          <option value="all branches">all branches</option>
-        </select>
-        <div className='filter_flex_right'>
-          <select className='common_select'>
-            <option value="custom range">custom range</option>
+        <div className='common_select'>
+          <select>
+            <option value="all branches">all branches</option>
           </select>
+        </div>
+        <div className='filter_flex_right'>
+          <div className='common_select'>
+            <select>
+              <option value="custom range">custom range</option>
+            </select>
+          </div>
           <div className='calendar_flex'>
             <span>March</span>
             <span>2020</span>
             <span className='calendar_box'>
-              {/* <img src='' alt='calendar icon'/> */}
+              <img src={calendarIcon} alt='calendar icon' className='calendar_icon' />
             </span>
           </div>
         </div>
       </div>
-      <OrderDetailsCard/>
+      <OrderDetailsCard />
+      <CountDataCard />
     </div>
   )
 }

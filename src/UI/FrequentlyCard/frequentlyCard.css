@@ -5,7 +5,7 @@
     background-color: white;
     border-radius: 8px;
     border: 1px solid var(--primary-border);
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .frequently_card_grid{
    display: grid;
@@ -33,12 +33,12 @@
     margin-top:0;
   }
   .frequently_card_link{
-    color: purple;
+    color: var(--link--foreground);
     font-size: 15px;
     text-decoration: none;
     display: inline-flex;
     gap: 3px;
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid var(--link--foreground);
     font-weight: 500;
   }
   .frequently_card_link span:nth-child(2){
@@ -62,5 +62,9 @@
     font-size: 12px;
     margin-bottom: 6px;
   }
-
+  }
+  @media screen and (max-width:767px) {
+    .frequently_container{
+      padding: 15px;
+    }
   }
